@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090b">
+  <title>XAVIERPOSTERIZE — Cinematic Poster Store</title>
+  <meta name="description" content="Shop cinematic A4 and A3 posters from XAVIERPOSTERIZE.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">CINEMATIC WALL ART • A4 & A3 PRINTS • MADE TO ORDER</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="XAVIERPOSTERIZE home"><span class="brand-mark">X</span><span>XAVIER<span class="red">POSTERIZE</span></span></a>
+    <nav><a href="#shop">Shop</a><a href="#about">About</a><a href="#custom">Custom orders</a></nav>
+    <button class="cart-open" id="open-cart" aria-label="Open cart">Cart <span id="cart-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">POSTERS FOR YOUR UNIVERSE</p>
+        <h1>TURN YOUR WALLS<br>INTO <em>CINEMATIC</em><br>STORIES.</h1>
+        <p class="hero-text">Bold artwork. Clean prints. Your favourite worlds, made for your walls.</p>
+        <a class="button primary" href="#shop">EXPLORE POSTERS <span>↗</span></a>
+      </div>
+      <div class="hero-art" role="img" aria-label="Abstract red cinematic poster artwork">
+        <div class="sun"></div><div class="silhouette"></div>
+        <div class="hero-art-caption">OWN YOUR<br>WALL SPACE.</div>
+      </div>
+    </section>
+
+    <section class="trust-row">
+      <div><span>▧</span><strong>A4 & A3 SIZES</strong><small>Choose your format</small></div>
+      <div><span>✳</span><strong>PRINTED TO ORDER</strong><small>Prepared by our studio</small></div>
+      <div><span>□</span><strong>CAREFUL PACKING</strong><small>Ready for delivery</small></div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2>FEATURED <span class="red">POSTERS</span></h2></div><p>Choose a design. Pick a size. Make it yours.</p></div>
+      <div class="filters" aria-label="Filter products">
+        <button class="filter active" data-filter="all">All posters</button>
+        <button class="filter" data-filter="anime">Anime-inspired</button>
+        <button class="filter" data-filter="cinema">Cinematic</button>
+        <button class="filter" data-filter="minimal">Minimal</button>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="custom-banner" id="custom">
+      <div><p class="eyebrow">YOUR IDEA, YOUR WALL</p><h2>WANT A CUSTOM<br><span class="red">POSTER DESIGN?</span></h2><p>Tell us your concept and preferred size. We’ll contact you to confirm the design and print details.</p></div>
+      <a class="button outline" id="custom-link" href="#">REQUEST A CUSTOM POSTER ↗</a>
+    </section>
+
+    <section class="section about" id="about">
+      <p class="eyebrow">ABOUT XAVIERPOSTERIZE</p>
+      <h2>MADE FOR PEOPLE WHO <span class="red">FEEL THE FRAME.</span></h2>
+      <p>Independent poster design and print shop. Each order is prepared for your chosen size, A4 or A3. Product artwork and prices shown here are examples—replace them with your own original designs and confirmed prices before publishing.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#"><span class="brand-mark">X</span><span>XAVIER<span class="red">POSTERIZE</span></span></a>
+    <p>Posters that speak your passion.</p>
+    <div class="footer-links"><a href="#shop">Shop</a><a href="#custom">Custom orders</a><a id="contact-link" href="#">Contact</a></div>
+    <small>© <span id="year"></span> XAVIERPOSTERIZE. All rights reserved.</small>
+  </footer>
+
+  <div class="drawer-backdrop" id="backdrop" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-head"><h2>YOUR CART</h2><button id="close-cart" aria-label="Close cart">✕</button></div>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-bottom"><div class="total-line"><span>Subtotal</span><strong id="cart-total">₹0</strong></div><p class="small-note">Shipping is confirmed separately. Checkout opens a message with your order details.</p><button class="button primary full" id="checkout">CHECKOUT VIA WHATSAPP ↗</button></div>
+  </aside>
+
+  <dialog id="product-dialog">
+    <button class="dialog-close" id="close-product" aria-label="Close product details">✕</button>
+    <div class="dialog-art" id="dialog-art"></div>
+    <div class="dialog-copy">
+      <p class="eyebrow">XAVIERPOSTERIZE PRINT</p><h2 id="dialog-title"></h2><p id="dialog-description"></p>
+      <label for="size-select">SIZE</label><select id="size-select"><option value="A4">A4 — 21 × 29.7 cm</option><option value="A3">A3 — 29.7 × 42 cm</option></select>
+      <p class="dialog-price" id="dialog-price"></p>
+      <button class="button primary full" id="add-selected">ADD TO CART</button>
+      <p class="small-note">Frame not included unless explicitly stated.</p>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
