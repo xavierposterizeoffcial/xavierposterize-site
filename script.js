@@ -2,7 +2,7 @@
 const WHATSAPP_NUMBER = ""; // Add your business WhatsApp number with country code, digits only, e.g. 919876543210.
 const CONTACT_EMAIL = "xavierposterize@gmail.com";   // Optional: add a customer support email.
 const products = [
-  {id:"ember",name:"Crimson Horizon",category:"cinema",tag:"CINEMATIC SERIES",artTitle:"CRIMSON\nHORIZON",sub:"01 / THE AFTERGLOW",color:"#a9162b",a4:199,a3:299,description:"A dramatic original cinematic-style art print. Replace this sample artwork with your own design."},
+  {id:"ember",name:"Thalapathyposters",category:"cinema",tag:"CINEMATIC SERIES",artTitle:".Picsart_26-10-19_20-30-22-495.jpg ",sub:"01 / THE AFTERGLOW",color:"#a9162b",a4:199,a3:299,description:"A dramatic original cinematic-style art print. Replace this sample artwork with your own design."},
   {id:"orbit",name:"Beyond the Orbit",category:"minimal",tag:"SPACE COLLECTION",artTitle:"BEYOND\nTHE ORBIT",sub:"02 / FIND YOUR WAY",color:"#28516d",a4:199,a3:299,description:"A moody space-inspired art print for your room, studio, or desk."},
   {id:"wildfire",name:"Wildfire Spirit",category:"anime",tag:"ANIME-INSPIRED",artTitle:"WILDFIRE\nSPIRIT",sub:"03 / UNBREAKABLE",color:"#b54a20",a4:199,a3:299,description:"An original anime-inspired poster concept. Use licensed or original artwork for products you sell."},
   {id:"noir",name:"Midnight Noir",category:"cinema",tag:"NOIR COLLECTION",artTitle:"MIDNIGHT\nNOIR",sub:"04 / AFTER DARK",color:"#5b2639",a4:199,a3:299,description:"A bold, shadowy cinematic art print."},
