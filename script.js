@@ -1,5 +1,5 @@
 // IMPORTANT: These are sample listings and sample prices. Replace with your own artwork and actual prices.
-const WHATSAPP_NUMBER = ""; // Add your business WhatsApp number with country code, digits only, e.g. 919876543210.
+const WHATSAPP_NUMBER = "9344440442"; // Add your business WhatsApp number with country code, digits only, e.g. 919876543210.
 const CONTACT_EMAIL = "xavierposterize@gmail.com";   // Optional: add a customer support email.
 const products = [
   {id:"ember",name:"Thalapathyposters",category:"cinema",tag:"CINEMATIC SERIES",artTitle:".Picsart_26-10-19_20-30-22-495.jpg ",sub:"01 / THE AFTERGLOW",color:"#a9162b",a4:199,a3:299,description:"A dramatic original cinematic-style art print. Replace this sample artwork with your own design."},
